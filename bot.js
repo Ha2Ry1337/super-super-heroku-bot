@@ -11,5 +11,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === '.rangi') {
+    	message.reply('1.Niebieski Szlam \n 2.Zombie \n 3.Szkielet \n 4.Baronowy Szlam');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
