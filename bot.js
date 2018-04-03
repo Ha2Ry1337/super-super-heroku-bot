@@ -13,7 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '.rangi') {
-    	message('1.@Niebieski Szlam \n 2.Zombie \n 3.Szkielet \n 4.Baronowy Szlam');
+    	message.reply('1.@Niebieski Szlam \n 2.Zombie \n 3.Szkielet \n 4.Baronowy Szlam');
   	}
 });
 
